@@ -20,9 +20,9 @@ function NavigationLayout() {
 
   return (
     <>
-      <nav className='flex justify-between items-center xl:px-24 px-4 text-white py-6 relative'>
+      <nav className='flex justify-between items-center px-4 text-white py-6 relative'>
         <div>
-          <h1 className='text-2xl font-bold'>arche.</h1>
+          <h1 className='text-2xl font-bold font-customHeader'>arche.</h1>
         </div>
         <div className='md:hidden'>
           {

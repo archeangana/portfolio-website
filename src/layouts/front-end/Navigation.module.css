@@ -12,7 +12,6 @@
       0 0 40px #4ff0ff;
 }
 
-
 .link::after{
       content: '';
       display: block;

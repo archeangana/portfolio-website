@@ -1,3 +1,81 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+      font-family: Header;
+      src: url('./public/fonts/Lavigne.otf') format('opentype');
+      font-style: normal;
+      font-weight: normal;
+}
+
+@font-face {
+      font-family: Header2;
+      src: url('./public/fonts/Moderniz.otf') format('opentype');
+}
+
+@font-face {
+      font-family: BodyText1;
+      src: url('./public/fonts/Zain-Regular.ttf') format('truetype');
+      font-style: normal;
+}
+
+@font-face {
+      font-family: BodyText2;
+      src: url('./public/fonts/AllenSans-Regular.ttf') format('truetype');
+      font-style: normal;
+
+}
+
+body, html {
+      position: relative;
+      overflow-x: hidden;
+}
+
+.main {
+      background-color: #000513;
+}
+
+h1 {
+      font-family: theme('fontFamily.customHeader2')
+}
+
+li, a {
+      font-family: theme('fontFamily.customBody2')
+}
+
+p {
+      font-family: theme('fontFamily.customBody1')
+}
+
+.primary-text {
+      color: theme('colorPallete.primary');
+}
+
+.primary-bg {
+      background-color: theme('colorPallete.primary');
+}
+
+.secondary-text {
+      color: theme('colorPallete.primary')
+}
+
+.secondary-bg {
+      background-color: theme('colorPallete.secondary');
+}
+
+.cta-yellow-text {
+      color: theme('colorPallete.ctaYellow')
+}
+
+.cta-yellow-bg {
+      background-color: theme('colorPallete.ctaYellow')
+}
+
+.neon-bg1 {
+      background-color: theme('colorPallete.neon');
+}
+
+.neon-bg2 {
+      background-color: theme('colorPallete.neon2');
+}
