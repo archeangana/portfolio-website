@@ -10,7 +10,7 @@ function Home() {
           </h1>
         <div className={`flex gap-8`}>
           <p className='w-96 text-lg opacity-90 text-left'>I'am Arche Web Developer based in Philippines.</p>
-          <Button isLink to="" className={`neon-bg2 primary-text py-2 px-10 rounded-md`} >
+          <Button isLink to="" className={`neon-bg2 primary-text hover:bg-opacity-50 py-2 px-10 rounded-md`} >
               View Resume
           </Button>
         </div>

@@ -16,7 +16,6 @@ import MasterLayout from './layouts/front-end/MasterLayout';
 
 function App() {
 
-
   return (
     <>
       <Routes>
