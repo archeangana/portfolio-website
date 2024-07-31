@@ -35,7 +35,7 @@ body, html {
 .main {
       background-color: #000513;
 }
-
+/* 
 h1 {
       font-family: theme('fontFamily.customHeader2')
 }
@@ -46,7 +46,7 @@ li, a {
 
 p {
       font-family: theme('fontFamily.customBody1')
-}
+} */
 
 .primary-text {
       color: theme('colorPallete.primary');
